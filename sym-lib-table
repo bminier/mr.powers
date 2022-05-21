@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "bvm-library")(type "KiCad")(uri "${KIPRJMOD}/bvm-library.kicad_sym")(options "")(descr ""))
+  (lib (name "bvm-library2")(type "KiCad")(uri "${KIPRJMOD}/bvm-library2.kicad_sym")(options "")(descr ""))
+)
