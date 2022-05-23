@@ -260,24 +260,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "another net on the wall",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 194)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -369,8 +351,14 @@
     ],
     [
       "a22d3252-abdc-46db-b6f3-69d9854e633a",
-      "Mr. Power Meter"
+      "Mr. Power Meter Module"
+    ],
+    [
+      "0ea609dd-c611-46fa-a8c1-4e97436a84b9",
+      "12VDC External Supply"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "WhatIsTheAnswer": "Whatever I want it to be: 42"
+  }
 }
