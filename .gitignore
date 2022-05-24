@@ -36,3 +36,4 @@ packages/
 *.*bak
 /mr.powers.csv
 /mr.powers.xml
+/fp-info-cache

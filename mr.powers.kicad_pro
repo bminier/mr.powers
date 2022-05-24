@@ -354,8 +354,12 @@
       "Mr. Power Meter Module"
     ],
     [
-      "0ea609dd-c611-46fa-a8c1-4e97436a84b9",
-      "12VDC External Supply"
+      "aaf4c266-8928-4ac3-8b58-5a96163e9dc4",
+      "VDC Meter Template"
+    ],
+    [
+      "9fb85588-3af3-4456-9aeb-87e405dda5cc",
+      "Fan Control"
     ]
   ],
   "text_variables": {
