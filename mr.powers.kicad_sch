@@ -538,9 +538,6 @@
   (junction (at 132.08 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 2aef9a5a-1f8e-4c4f-bf0c-600a9ade7a6e)
   )
-  (junction (at 318.77 49.53) (diameter 0) (color 72 72 72 1)
-    (uuid 3769bbd7-3c10-4802-861d-f9321d9767dd)
-  )
   (junction (at 274.32 62.23) (diameter 0) (color 255 0 0 1)
     (uuid 39cac3bd-d2ba-4257-bea5-00a2ef4a58cb)
   )
@@ -571,9 +568,6 @@
   (junction (at 91.44 88.9) (diameter 0) (color 0 0 0 0)
     (uuid dc92ea45-5d7b-4b4c-8961-c0b763f40ed1)
   )
-  (junction (at 318.77 62.23) (diameter 0) (color 255 255 0 1)
-    (uuid dd02ee6c-f1f1-4c8e-9f11-5a7011f5fa73)
-  )
   (junction (at 132.08 114.3) (diameter 0) (color 0 0 0 0)
     (uuid deb127d0-a7cb-435f-a6f6-1c772aa30763)
   )
@@ -593,7 +587,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 019084d5-2726-43d8-a445-02be3673596e)
   )
-  (wire (pts (xy 196.85 57.15) (xy 312.42 57.15))
+  (wire (pts (xy 196.85 57.15) (xy 290.83 57.15))
     (stroke (width 0) (type default) (color 255 255 0 1))
     (uuid 021a40fe-b56b-4309-992b-30cb1d74e0bc)
   )
@@ -671,17 +665,13 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6ab91fa8-9984-4051-a098-696c773b48d0)
   )
-  (wire (pts (xy 280.67 49.53) (xy 318.77 49.53))
+  (wire (pts (xy 280.67 49.53) (xy 290.83 49.53))
     (stroke (width 0) (type default) (color 72 72 72 1))
     (uuid 6ec59d9d-42aa-4ed5-9b77-80664cc9a1ec)
   )
   (wire (pts (xy 196.85 52.07) (xy 274.32 52.07))
     (stroke (width 0) (type default) (color 0 132 132 1))
     (uuid 6f908223-fa59-4cf5-ac08-8ed8da87b87d)
-  )
-  (wire (pts (xy 318.77 49.53) (xy 326.39 49.53))
-    (stroke (width 0) (type default) (color 72 72 72 1))
-    (uuid 7112e6af-e768-4145-beb3-d6479042167e)
   )
   (wire (pts (xy 228.6 78.74) (xy 232.41 78.74))
     (stroke (width 0) (type default) (color 194 0 194 1))
@@ -740,10 +730,6 @@
     (stroke (width 0) (type default) (color 255 0 0 1))
     (uuid 9c608637-5582-47fd-9f0d-44e901fd4cc8)
   )
-  (wire (pts (xy 318.77 62.23) (xy 326.39 62.23))
-    (stroke (width 0) (type default) (color 255 255 0 1))
-    (uuid a277bdc5-d52b-4a65-b180-04f7be2ca961)
-  )
   (wire (pts (xy 132.08 107.95) (xy 132.08 114.3))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a5e896bb-d70c-4708-a304-3c76af4e8e66)
@@ -796,14 +782,6 @@
   (wire (pts (xy 232.41 59.69) (xy 290.83 59.69))
     (stroke (width 0) (type default) (color 194 0 194 1))
     (uuid dcda7bd6-096a-40c0-9d60-6f7cd8cce2ba)
-  )
-  (wire (pts (xy 312.42 62.23) (xy 312.42 57.15))
-    (stroke (width 0) (type default) (color 255 255 0 1))
-    (uuid dcecadaf-a8d6-4cc9-a860-d7ee60235e17)
-  )
-  (wire (pts (xy 318.77 62.23) (xy 312.42 62.23))
-    (stroke (width 0) (type default) (color 255 255 0 1))
-    (uuid df9b936e-0f33-4638-bb16-e9ec4e60103b)
   )
   (wire (pts (xy 236.22 74.93) (xy 236.22 62.23))
     (stroke (width 0) (type default) (color 255 0 0 1))
@@ -859,7 +837,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 2af599b0-d846-45fa-b333-1c96ece50608)
   )
-  (text "Mr. Power Standby LED (Green)" (at 200.66 83.82 0)
+  (text "[STANDBY ACTIVE INDICATOR]" (at 200.66 83.82 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 2c2c95f8-b6cf-4d76-8ec4-132052fe0c55)
   )
@@ -991,10 +969,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
-  (global_label "VDC_GND" (shape input) (at 326.39 49.53 0) (fields_autoplaced)
+  (global_label "VDC_GND" (shape input) (at 290.83 49.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 87e3b824-11fc-43a4-9493-b951596370ed)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 337.2698 49.4506 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 301.7098 49.4506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -1012,10 +990,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
-  (global_label "12VDC_SUPPLY" (shape input) (at 326.39 62.23 0) (fields_autoplaced)
+  (global_label "12VDC_SUPPLY" (shape input) (at 290.83 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fc256db3-59f3-41c3-96b0-7a540ab56ff6)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 343.015 62.1506 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 307.455 57.0706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -1129,30 +1107,11 @@
     (pin "2" (uuid 6390567e-3223-4af1-8441-e5b3e79f54a3))
   )
 
-  (symbol (lib_id "pspice:C") (at 318.77 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 432d4456-332c-4b84-b666-2dda6e1ef017)
-    (property "Reference" "C5" (id 0) (at 323.85 54.6099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C" (id 1) (at 323.85 57.1499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 318.77 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 318.77 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 930271a9-928c-4db1-9635-57b12a2c995b))
-    (pin "2" (uuid 6e7346b9-a505-4842-8884-a73062eb0601))
-  )
-
   (symbol (lib_id "Device:LED") (at 224.79 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 596e83f9-2c26-4e5e-bb56-ae15c114e7ab)
     (property "Reference" "D2" (id 0) (at 223.2025 72.39 0))
-    (property "Value" "LED" (id 1) (at 223.2025 74.93 0))
+    (property "Value" "5VDC GREEN" (id 1) (at 223.2025 74.93 0))
     (property "Footprint" "" (id 2) (at 224.79 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1483,41 +1442,95 @@
     (path "/8e6d0236-d13f-4199-a425-4eecb705c0b9"
       (reference "C4") (unit 1) (value "C") (footprint "")
     )
-    (path "/432d4456-332c-4b84-b666-2dda6e1ef017"
-      (reference "C5") (unit 1) (value "C") (footprint "")
-    )
     (path "/0b771d8c-af88-45e8-beb1-e01a6609a44f"
       (reference "D1") (unit 1) (value "12VAC RED") (footprint "")
     )
     (path "/596e83f9-2c26-4e5e-bb56-ae15c114e7ab"
-      (reference "D2") (unit 1) (value "LED") (footprint "")
-    )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/cd793e5d-3401-4020-b231-cdafcb3d52ba"
-      (reference "F2") (unit 1) (value "Fuse") (footprint "")
+      (reference "D2") (unit 1) (value "5VDC GREEN") (footprint "")
     )
     (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/038e1d79-ab7b-44f5-9008-1bdb3899d518"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+      (reference "F2") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/bb321096-3276-4732-8aaa-37e6b9934258/f4dff4d6-74bb-4603-b93f-c013f2d076fa"
+      (reference "F4") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/1fc4a022-bbdc-49b2-921f-4e31c76d52fa/981073d1-440f-4190-858a-b5d76c4d306c"
+      (reference "F5") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/6b5d4f63-af2e-4ce7-9e86-10f3e99d1837"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/a4d67d26-ad6b-4cb6-a771-967b6b7b3b2c"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/e4a37adf-2b22-4b90-b3c8-244f341b2a37"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/f42ef54f-9359-4628-a190-cf3df86de3a0"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/ab95e60e-9dfb-409c-b755-a13a1b43fd34"
       (reference "HS1") (unit 1) (value "Heatsink") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/b42936e4-512e-4880-adf5-ffa575fd174d"
-      (reference "J1") (unit 1) (value "VAC_GROUND_TERM") (footprint "")
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/0446c0f0-91ec-4f22-92ce-c18dc71b8687"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/3ed12cfb-a41b-4ed3-b002-691061f0362b"
-      (reference "J3") (unit 1) (value "VAC_LIVE_TERM") (footprint "")
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/121affda-0939-4f1f-9be9-6102f7b4f1d5"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/77057d5f-c43f-4c29-a06a-4b8fe12fd876"
-      (reference "J4") (unit 1) (value "VAC_NUETRAL_TERM") (footprint "")
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/158bf66b-4c63-4b7e-ad90-866b1d5dbd9b"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/32b309e0-749d-4ba7-9500-6ee72b1420df"
-      (reference "K2") (unit 1) (value "12VDC SPDT Relay (240V 10A)") (footprint "Relay_THT:Relay_SPDT_RAYEX-L90S")
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/2ec58b48-5443-46b1-bbe3-71b278881c2d"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/3ac89b97-6914-4b04-b546-8f10aab1d7dc"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/6ebe499e-24f7-4b72-a9b2-6c212502d5a6"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/83e46a7a-5c32-48a6-a1dd-95bb9694c500"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/a4d50d1e-de0d-4af2-8bde-19b750e4b525"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/c1f8cc15-d0fc-403a-a07d-d251839aaca1"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/cd3e4502-fe9d-4851-820e-668868792605"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/dddebabd-1896-480c-8e1a-8abd138bc828"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/ef9916e9-c7ee-4931-96ac-10801a1d9635"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/f55dad51-0ad7-478c-9a96-54567340b4db"
+      (reference "J?") (unit 1) (value "Conn_01x01_MountingPin") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/5ef3e96f-b97c-4655-b01e-ad7e9622bf4d"
+      (reference "K?") (unit 1) (value "12VDC SPDT Relay (240V 10A)") (footprint "Relay_THT:Relay_SPDT_RAYEX-L90S")
     )
     (path "/a22d3252-abdc-46db-b6f3-69d9854e633a/44aa0613-512b-4377-a5e1-4fd685b06b68"
       (reference "M1") (unit 1) (value "KWS-AC300") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/01a528fb-c33e-461c-ab16-ecfc80100327"
+      (reference "M?") (unit 1) (value "YB27VA") (footprint "")
+    )
+    (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/02cd4bce-d619-4473-a240-2ef8cc2c144c"
+      (reference "M?") (unit 1) (value "5_Pin_Meter_With_Ext_Shunt") (footprint "")
+    )
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/ba486335-518f-42b0-8632-2cf8af5afc3e"
+      (reference "M?") (unit 1) (value "4_Pin_Meter_With_Toroid") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/f231313e-18af-427f-888a-2f172f4fc4f0"
+      (reference "M?") (unit 1) (value "YB27VA") (footprint "")
+    )
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/f4dddafa-e7e9-45f3-97ca-eb568a5dfca8"
+      (reference "M?") (unit 1) (value "5_Pin_Meter_With_Ext_Shunt") (footprint "")
     )
     (path "/88babde9-0733-474e-ac6f-7a32d07f885e"
       (reference "R1") (unit 1) (value "100W 8Ohms") (footprint "")
@@ -1537,23 +1550,38 @@
     (path "/2aa35155-b68a-4857-a1ca-47e82c72fbf4"
       (reference "R8") (unit 1) (value "R") (footprint "")
     )
+    (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/0ded61bb-22a1-4c71-891c-6176572114a1"
+      (reference "R?") (unit 1) (value "R_Shunt_US") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/20d33d33-5333-4696-91c9-67e4ca436489"
+      (reference "R?") (unit 1) (value "R_Shunt_US") (footprint "")
+    )
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/be5814a1-ad7e-4c98-96ff-ced742446c81"
+      (reference "R?") (unit 1) (value "R_Shunt_US") (footprint "")
+    )
     (path "/a1f8ef70-d2a8-4040-aca5-d20eb0aa1670"
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/61ac4e98-5bb7-4bc0-ab79-220bfa830b5c"
-      (reference "SW2") (unit 1) (value "SW_DP3T") (footprint "")
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/aaa8504f-4557-4b80-8b81-1fa705269d20"
+      (reference "SW?") (unit 1) (value "SW_Rotary2x6") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/4da3c2bd-90a3-4393-8eb5-3f27cc9c9f0b"
-      (reference "SW2") (unit 2) (value "SW_DP3T") (footprint "")
-    )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/85174285-dfcf-410b-8540-79a10c082b49"
-      (reference "SW3") (unit 1) (value "SW_SP3T") (footprint "")
-    )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/6f741f0e-6238-443e-a93d-520912a911e0"
-      (reference "SW4") (unit 1) (value "SW_SPST") (footprint "")
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/3f46b112-cf1c-48f4-b44e-6b32a656413d"
+      (reference "SW_AC_MODULE") (unit 1) (value "SW_SPST_LED") (footprint "")
     )
     (path "/a22d3252-abdc-46db-b6f3-69d9854e633a/ed3bfb57-4d4d-434a-b1b6-050ee3cce2b4"
       (reference "SW_SYSPOWER1") (unit 1) (value "SW_SPST_LED") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/04e1c175-18ce-447d-9ea9-cf2dfa766a76"
+      (reference "SW_SYSPOWER?") (unit 1) (value "SW_SPST_LED") (footprint "")
+    )
+    (path "/4c7ce32b-0c42-469b-9a8d-0d9da9d0a261/311386cc-e98e-4995-9203-d45abffef578"
+      (reference "SW_SYSPOWER?") (unit 1) (value "SW_SPST_LED") (footprint "")
+    )
+    (path "/327dc0f5-b45f-47ac-b61f-13fbc03c848a/486452bc-7f52-4d99-adfe-350a6cfc3e68"
+      (reference "SW_SYSPOWER?") (unit 1) (value "SW_SPST_LED") (footprint "")
+    )
+    (path "/a55387e4-caa0-43d6-b71b-9bcfb5405a7f/61d08381-7b65-4904-a9e2-449d7d8fd3fa"
+      (reference "SW_SYSPOWER?") (unit 1) (value "SW_SPST_LED") (footprint "")
     )
     (path "/a22d3252-abdc-46db-b6f3-69d9854e633a/bdc4de7a-8dd0-4380-b577-cff3c5cb0834"
       (reference "SYSPOWER_VAC_RELAY1") (unit 1) (value "JQX-15F") (footprint "Relay_THT:Relay_SPDT_HsinDa_Y14")
@@ -1564,8 +1592,8 @@
     (path "/a22d3252-abdc-46db-b6f3-69d9854e633a/ca30effa-9ba2-43c7-b709-3345e7fe439d"
       (reference "T2") (unit 1) (value "Closed_Loop_Toroidal_Current_Sensor") (footprint "")
     )
-    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/0c5e0cb1-22b8-40d0-8eab-742ad6112fdb"
-      (reference "U1") (unit 1) (value "AC PWM ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/580e8683-8769-4aaa-87f3-01eab04841e4/0d4bb547-ac8f-4edb-9a10-19384e261594"
+      (reference "T?") (unit 1) (value "1000/1 10Ω") (footprint "")
     )
     (path "/8edb5781-1671-49a8-98b0-1fa512ff1e8e"
       (reference "U2") (unit 1) (value "Antec 400W") (footprint "")

@@ -79,7 +79,7 @@
   (symbol (lib_id "Device:Fuse") (at 82.55 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 981073d1-440f-4190-858a-b5d76c4d306c)
-    (property "Reference" "F?" (id 0) (at 82.55 58.42 90))
+    (property "Reference" "F5" (id 0) (at 82.55 58.42 90))
     (property "Value" "Fuse" (id 1) (at 82.55 60.96 90))
     (property "Footprint" "" (id 2) (at 82.55 66.548 90)
       (effects (font (size 1.27 1.27)) hide)
