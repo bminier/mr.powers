@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Mr. Power Meter")
+    (title "Mr. Powers")
     (date "2022-05-20")
     (rev "0.0.0-draft")
     (company "eatmellc")
@@ -423,17 +423,16 @@
       )
       (symbol "Closed_Loop_Toroidal_Current_Sensor_1_1"
         (pin input line (at 5.08 2.54 180) (length 2.54)
-          (name "Current_Sense_A" (effects (font (size 1.27 1.27))))
+          (name "Sense+" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 5.08 -2.54 180) (length 2.54)
-          (name "Current_Sense_B" (effects (font (size 1.27 1.27))))
+          (name "Sense-" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
   )
-
 
   (junction (at 109.22 68.58) (diameter 0) (color 0 0 0 0)
     (uuid cb1ff30f-10ee-45a7-bec9-26f4c270e17c)
@@ -503,17 +502,18 @@
     (uuid fa354cb8-3667-4c4f-9855-4e96b8731060)
   )
 
-  (text "VAC_SUPPLY_EN" (at 118.11 68.58 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6b90ec8b-668a-4340-bc23-1955790b7d0d)
-  )
-  (text "SYSTEM\nPOWER METER" (at 147.32 100.33 0)
+  (text "SYSTEM POWER METER" (at 143.51 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 91a4beb4-adbf-4ed6-814a-945c14e489e6)
   )
   (text "VAC: Measured before the PSU Mains Switch." (at 86.36 91.44 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid adbff124-e657-491c-98f7-e2fda5d6cda1)
+  )
+
+  (label "VAC_SUPPLY_EN" (at 118.11 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 473a002e-f61f-42e4-afba-3651df40963f)
   )
 
   (global_label "120VAC_SUPPLY_L" (shape input) (at 139.7 76.2 180) (fields_autoplaced)
@@ -595,7 +595,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Closed_Loop_Toroidal_Current_Sensor" (id 1) (at 93.98 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "" (id 2) (at 110.49 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
