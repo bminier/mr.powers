@@ -332,7 +332,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "bvm-library"
+    ]
   },
   "meta": {
     "filename": "mr.powers.kicad_pro",

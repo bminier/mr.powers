@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 0123919a-406e-4e80-91ae-7a5ffc604f9d)
+  (uuid 104663ca-0ba1-4ac5-a193-40c836089c36)
 
   (paper "A4")
 
@@ -17773,7 +17773,7 @@
   (symbol (lib_id "bvm-library:12VDC_PWM_FAN_DRIVER") (at 115.57 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2564e08e-3bf9-46eb-a068-459b0ac62796)
-    (property "Reference" "U?" (id 0) (at 115.57 116.84 0))
+    (property "Reference" "U3" (id 0) (at 115.57 116.84 0))
     (property "Value" "12VDC_PWM_FAN_DRIVER" (id 1) (at 115.57 121.92 0))
     (property "Footprint" "" (id 2) (at 115.57 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
